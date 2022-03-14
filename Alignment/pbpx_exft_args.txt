@@ -1,0 +1,11 @@
+-Make=MICRON CORPORATION
+-Model=MT9M001
+-DNGVersion=1.4.0.0
+-DNGBackwardVersion=1.3.0.0
+-EXIF:SubfileType=Full-resolution Image
+-PhotometricInterpretation=Color Filter Array
+-IFD0:CFARepeatPatternDim=2 2
+-IFD0:CFAPattern2=0 1 1 2
+-Orientation=Horizontal
+-BitsPerSample=8
+-SamplesPerPixel=1
