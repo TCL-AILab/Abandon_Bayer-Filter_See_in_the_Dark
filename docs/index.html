@@ -1,0 +1,200 @@
+<!doctype html>
+<!-- 
+##############################################################
+Ignore this boilerplate if you're just trying to edit the text.
+Skip to the part that says 'The real text begins here'
+##############################################################
+
+Based on this theme: https://github.com/broccolini/dinky , which mentioned that attribution is appreciated. Thanks, broccolini!
+-->
+<html lang="en">
+  <head>
+    <base target="_blank">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="citation_title" content="A template for writing scientific papers">
+    <meta name="citation_author" content="Andrew G. York">
+    <meta name="citation_publication_date" content="2017/01/05">
+    <meta name="citation_journal_title" content="Github.io">
+    <meta name="citation_pdf_url" content="https://andrewgyork.github.io/publication_template/Publication_template%20by%20AndrewGYork.pdf">
+    <title>publication_template by AndrewGYork</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/prism.css">
+    <!--[if lt IE 9]>
+    <script src="javascript/html5shiv/html5shiv.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <script src="javascript/scale-fix/scale.fix.js"></script>
+    <script src="javascript/python-highlighting/prism.js"></script>
+    <script async  src="javascript/Minimal-MathJax/MathJax.js?config=TeX-AMS_CHTML"></script>
+    <script src="javascript/update_figures.js"></script>
+    <script src="javascript/reference_list/reference_list.js"></script>
+    <script src="javascript/google-analytics/analytics.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Publication-template</h1>
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/AndrewGYork/publication_template/zipball/master">Download ZIP</a></li>
+          <li><a class="buttons github" href="https://github.com/AndrewGYork/publication_template">View On GitHub</a></li>
+          <li><a class="buttons pdf" href="./Publication_template%20by%20AndrewGYork.pdf">Download PDF</a></li>
+        </ul>
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/AndrewGYork">AndrewGYork</a></p>
+      </header>
+<!-- 
+##############################################################
+The real text begins here.
+##############################################################
+ -->
+<section>
+<h1>Technical note</h1>
+<h2>A template for writing scientific papers</h2>
+<p class="author_list">Andrew G. York<sup>1*</sup></p>
+<p class="author_affiliations"><sup>1</sup>Calico Life Sciences LLC, South San Francisco, CA 94080, USA</p>
+<p class="contact_email"><sup>*</sup>Permanent email: <a href="mailto:andrew.g.york+template@gmail.com" target="_self">andrew.g.york+template@gmail.com</a></p>
+<p class="abstract">A template for formatting scientific papers using HTML, CSS, and Javascript.</p>
+<p><a href="https://doi.org/10.5281/zenodo.231328">doi: 10.5281/zenodo.231328</a></p>
+
+<h3 class="onlyprint">
+Note that this is a limited PDF or print version; animated and interactive figures are disabled. For the full version of this article, please visit <a href="https://andrewgyork.github.io/publication_template">https://andrewgyork.github.io/publication_template</a></h3>
+
+<noscript>
+<h3>Your browser doesn't seem to support Javascript. This document uses Javascript for interactive figures, math typesetting, and to automatically generate the reference list. Either activate Javascript, or use the "Download PDF" link above if you want properly typeset math and a reference list.</h3></noscript>
+
+<h3>
+Examples</h3>
+<p>Scientific papers from my lab which use this template:</p>
+<ul>
+<li><a href="https://andrewgyork.github.io/remote_refocus">Remote refocus enables class-leading spatiotemporal resolution in 4D optical microscopy</a></li>
+<li><a href="https://andrewgyork.github.io/rescan_line_sted">Line-rescanned STED microscopy is gentler and faster than point-descanned STED microscopy</a></li>
+</ul>
+
+<h3>
+Introduction</h3>
+<p>
+Version control tools like <a href="https://git-scm.com/">Git</a>, <a href="https://github.com/">Github</a>, and <a href="https://pages.github.com/">Github Pages</a> are great for developing, sharing, and documenting code. Why not for science, too? Consider the following workflow:
+</p>
+<ul>
+<li><strong>Discover or invent something.</strong> This is supposed to be the hard part. For me, this invariably involves writing wild and wooly exploratory Python code, which goes in a private Github repository, if I'm behaving myself.</li>
+<li><strong>Collect results into intelligible figures.</strong> I usually do this via Python code, which also belongs in a private Github repository.</li>
+<li><strong>Write explanatory text.</strong> I've always found this step is a mess. No set of tools I've tried (e.g. Word, LaTeX, Google Docs) fit my workflow (e.g. collaboration, version control, formatting). An HTML/CSS template with math typesetting, code syntax highlighting, and automatic reference listing (via Javascript) fits me perfectly - and allows collaborative writing via a private Github repo!</li>
+<li><strong>Circulate preprints.</strong> Existing options like email, arXiv, or bioR\(\chi\)iv are great, but it's 2016 - why are we using PDFs? The web makes sharing data, code, animations, and interactive figures straightforward. If the code, data, and HTML are already on Github, then sharing a preprint is as simple as <a href="https://pages.github.com/">activating Github Pages</a>.</li>
+<li><strong>Submit for peer review.</strong> Historically, a huge mess. Much has been written about the <a href="http://www.ascb.org/2016/11/07/on-publishing-and-the-sneetches-a-wake-up-call-november-december-2016-newsletter/">unfortunate state of academic publishing</a>. Why not cut out the middleman and solicit review directly from qualified colleagues? (A much longer discussion, and beyond the scope of this document - but I want to try it.)</li>
+<li><strong>Archive for posterity.</strong> I want my work to exist after I die, in an open, available and <a href="https://guides.github.com/activities/citable-code/">citable</a> form. Github, Github Pages, and <a href="https://zenodo.org/">Zenodo</a> address these problems cleanly (although there's room for improvement).</li>
+</ul>
+
+<p>I've been careful about dependencies; Git and Github are helpful, but not required. You can download a <a href="https://github.com/AndrewGYork/publication_template/zipball/master"><code>.zip</code> of this repository</a>, edit <code>index.html</code> with a text editor, and view the results with a web browser. I avoid Javascript which loads via the web, so you can work offline. My figure generation code depends on the <a href="https://www.scipy.org/stackspec.html">Scipy stack</a>, but this is easy to swap out; all you have to do is generate static images, put them in the proper folder, and link to them from <code>index.html</code>. You can generate your static images using any tool you choose. If you happen to use code to generate your figures, though, great! You can put this code in the <code>figure_generation</code> directory, enabling version control and simple reproduction of your results by others.</p>
+
+<p>Writing directly in HTML/CSS/Javascript isn't for everyone. It's fiddly, has a learning curve, and requires obsessive attention to detail. In my experience, writing a scientific publication already fits this description, so it's a small price to pay, and one I'm already paying.</p>
+
+<h3>
+Math typesetting</h3>
+
+<p>I use MathJax for typesetting. I want to be able to work offline, but a local MathJax copy is huge, so I followed the recipe described by <a href="https://tiborsimon.io/articles/web/minimal-mathjax/">Tibor Simon</a> to make a minimal version. The recipe's pretty cool; you delete most of MathJax, try to load it, watch your browser console, and copy files back one at a time until your browser stops complaining. I only support LaTex input; if you want more, you can follow Tibor's recipe and replace the contents of <code>/javascript/Minimal-MathJax/</code>.</p>
+
+<p>Examples of paragraph equations:</p>
+<div>
+    $$\begin{equation}\prod_{\substack{1\le i \le n\\ 1\le j \le m}}M_{i,j} \end{equation}$$
+    $$\begin{equation}L' = {L}{\sqrt{1-\frac{v^2}{c^2}}}\end{equation} $$
+    $$\begin{align} B'&=-\nabla \times E,\\E'&=\nabla \times B - 4\pi j,\end{align} $$
+    $$\begin{equation}x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}\end{equation} $$
+</div>
+
+Example of inline math: \(\frac{a^3}{b}\)
+
+<h3>
+Code syntax highlighting</h3>
+
+<p><a href="http://prismjs.com/">Prism.js</a> makes HTML syntax highlighting easy. I only included Python highlighting; if you want more, download a freshly customized version from <a href="http://prismjs.com/">prismjs.com</a> and replace <code>/javascript/python-highlighting/prims.js</code>.</p>
+
+<p>Example Python syntax highlighting:</p>
+<pre><code class="language-python">import antigravity
+antigravity.fly()
+print("Whee!")
+</code></pre>
+
+<h3>
+Automatic reference list</h3>
+
+<p>An example of how to include a citation:
+
+[<a class="citation" href="http://dx.doi.org/10.1371/journal.pgen.1004526" title="Asymmetric Division and Differential Gene Expression during a Bacterial Developmental Program Requires DivIVA; Prahathees Eswaramoorthy, Peter W. Winter, Peter Wawrzusin, Andrew G. York, Hari Shroff, Kumaran S. Ramamurthi; PLoS Genet 10 (8), e1004526">Eswaramoorthy2014</a>].
+
+If you inspect the HTML, you'll see that inserting the citation is super clumsy, but at least you don't have to keep track of uniqueness, ordering, etc.</p>
+
+<h3>
+Static and interactive figures</h3>
+
+<p>Version control isn't a great way to organize images, but you can get away with it if there aren't too many, and they don't change too often. Figure 1 uses an image stored in the local repository.</p>
+
+<figure id="Figure_1">
+<img src="./images/figure_1/period_000002.svg"
+ alt="Figure 1" id="Figure_1_image">
+<figcaption><strong>Figure 1: A static figure using a local image.</strong> This image was generated by <code>/figure_generation/figure_1.py</code>.  </figcaption>
+</figure><p></p>
+
+<p> Figure 2 is interactive; the images are pre-computed (by Python code, in this case) and stored in the local repository. Simple javascript changes the figure's <code>img.src</code> when the figure's <code>select</code> changes. The images are small and don't change much, so it's not horrible to store them in this repository. A similar figure with substantially more images would stretch the limits of this approach. </p>
+
+<figure id="Figure_2">
+<img src="./images/figure_2/period_000004.svg"
+ alt="Figure 2" id="Figure_2_image">
+<table class="figure_controls">
+  <tr>
+  <td>Period: </td><td><select id="Figure_2_period" onchange="update_figure_2()">
+    <option value="000001">1</option>
+    <option value="000002">2</option>
+    <option value="000003">3</option>
+    <option value="000004" selected="selected">4</option>
+    <option value="000005">5</option>
+    <option value="000006">6</option>
+    <option value="000007">7</option>
+    <option value="000008">8</option>
+    <option value="000009">9</option>
+  </select></td><td>(change this to adjust the period of the sinusoidal plot)</td>
+    </tr>
+</table>
+<figcaption><strong>Figure 2: An interactive figure using local images.</strong> This figure's images were pre-generated by <code>/figure_generation/figure_2.py</code>, and switched dynamically by <code>/javascript/update_figures.js</code>. </figcaption>
+</figure><p></p>
+
+<p>Interactive figures can potentially contain huge numbers of images, which are clumsy to store in a version-controlled repository. My current preferred solution is to store such images in an auxiliary location. During the writing process, we generate these images automatically using the figure generation code and store them locally. Once the paper is ready to publish, we host a copy of these images in a second auxiliary repository. The figure update Javascript finds the appropriate image source for us.</p>
+
+<figure id="Figure_3">
+<img src="./images/figure_3/period_000004.svg"
+ alt="Figure 3" id="Figure_3_image">
+<table class="figure_controls">
+  <tr>
+  <td>Period: </td><td><select id="Figure_3_period" onchange="update_figure_3()">
+    <option value="000001">1</option>
+    <option value="000002">2</option>
+    <option value="000003">3</option>
+    <option value="000004" selected="selected">4</option>
+    <option value="000005">5</option>
+    <option value="000006">6</option>
+    <option value="000007">7</option>
+    <option value="000008">8</option>
+    <option value="000009">9</option>
+  </select></td><td>(change this to adjust the period of the sinusoidal plot)</td>
+  </tr>
+</table>
+<figcaption><strong>Figure 3: An interactive figure using images that aren't stored in this repository.</strong> This figure's images were pre-generated by <code>/figure_generation/figure_3.py</code>, and switched dynamically by <code>/javascript/update_figures.js</code>. </figcaption>
+</figure><p></p>
+
+<noscript>
+<h3>Your browser doesn't seem to support Javascript. This document uses Javascript to generate a reference list, which would normally be displayed here. Either activate Javascript, or use the "Download PDF" link above if you want to see the reference list.</h3></noscript>
+
+</section>
+<footer>
+  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="./images/cc_by_4p0.png"></a>
+
+  <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a></small></p>
+</footer>
+</div>
+ <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+</body>
+</html>
+ 
