@@ -199,7 +199,7 @@ if __name__ == '__main__':
     device = torch.device("cuda")
     model = our_Net()
     # print(model)
-    # checkpoint = torch.load(save_weights_file + '/weights_120000')
+    # checkpoint = torch.load(save_weights_file + '/weights_120000.pth')
     # model.load_state_dict(checkpoint['model'],strict=False)
     print('\nTrainable parameters : {}\n'.format(sum(p.numel() for p in model.parameters() if p.requires_grad)))
     print('\nTotal parameters : {}\n'.format(sum(p.numel() for p in model.parameters())))

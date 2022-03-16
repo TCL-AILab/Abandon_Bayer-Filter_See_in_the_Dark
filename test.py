@@ -4,7 +4,6 @@ import torch
 from torch.utils.data import DataLoader
 from skimage.metrics import peak_signal_noise_ratio as PSNR
 from skimage.metrics import structural_similarity as SSIM
-import torch.nn as nn
 from torch.utils.data import Dataset
 import tqdm
 import random
@@ -185,7 +184,7 @@ if __name__ == '__main__':
     model = model.to(device)
     print('Device on cuda: {}'.format(next(model.parameters()).is_cuda))
 
-    checkpoint = torch.load(save_weights_file + '/weights_234000')
+    checkpoint = torch.load(save_weights_file + '/weights_234000.pth')
     model.load_state_dict(checkpoint['model'], strict=False)
     iter_num = 234000
 

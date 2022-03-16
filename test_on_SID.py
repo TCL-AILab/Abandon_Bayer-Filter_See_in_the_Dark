@@ -159,7 +159,7 @@ if __name__ == '__main__':
     save_images_file = 'result_on_SID/images'
     save_csv_file = 'result_on_SID/csv_files'
 
-    train_input_paths = glob.glob('./Sony/short/0*_00_0.1s.ARW') + glob.glob('/home/xingbo/xwy/taleoftwocams/Sony/short/2*_00_0.1s.ARW')
+    train_input_paths = glob.glob('./Sony/short/0*_00_0.1s.ARW') + glob.glob('./Sony/short/2*_00_0.1s.ARW')
     train_gt_paths = []
     for x in train_input_paths:
         train_gt_paths += glob.glob('./Sony/long/*' + x[-17:-12] + '*.ARW')
