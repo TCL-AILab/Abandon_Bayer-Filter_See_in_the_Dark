@@ -58,9 +58,9 @@ We propose our alignment code for color and monochrome images taken by 2 cameras
 
 `Alignment/raw` folder contain samples of color and monochrome raw images in one scene.
 
-Firstly,in `convert_RAW.py`, we reshape the flatten '*.raw' files into '1280×1024' and save as '*.tif' files, and then we use the 'exiftool.exe' to add the head info 'pbpx_exft_args.txt' and save the images as '*.dng' and '*.jpg' files.
+Firstly,in `convert_RAW.py`, we reshape the flatten '.raw' files into '1280×1024' and save as '.tif' files, and then we use the 'exiftool.exe' to add the head info 'pbpx_exft_args.txt' and save the images as '.dng' and '.jpg' files.
 
-Secondly, in `alignment.py`, we choose two '*.jpg' images from color and monochrome, and use opencv to calculate the homograph to do the alignment for monochrome images.
+Secondly, in `alignment.py`, we choose two '.jpg' images from color and monochrome, and use opencv to calculate the homograph to do the alignment for monochrome images.
 
 ## Training & Testing 
 
