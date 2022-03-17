@@ -72,6 +72,7 @@ We split 3984 pairs of our dataset into `train set`: 3600 pairs and `test set`: 
 
 We train and test our **MCR** dataset with `train.py` and `test.py`, and we also train our network on SID dataset's Sony part with `train_on_SID.py` and `test_on_SID.py`.
 
+The pre-trained models on both datasets can be found at [MCR_pretrained_model](https://drive.google.com/file/d/1GDQxKobmIxw1hn9EToghcBNmKcnT_eJo/view?usp=sharing) and [SID_pretrained_model](https://drive.google.com/file/d/1m4Os_EpOQpBbaFXcHbEQA048prMrE8Rl/view?usp=sharing) 
 
 ## Citation
 If you find this project useful in your research, please consider citing:
