@@ -1,5 +1,6 @@
 # Abandoning the Bayer-Filter to See in the Dark (CVPR 2022)
 
+to be confirmed
 **Paper:** https://arxiv.org/abs/2203.04042
 
 This code includes the training and testing procedures of our network on our Mono-colored raw Paired (MCR) dataset and [SID](https://github.com/cchen156/Learning-to-See-in-the-Dark) dataset's Sony part.
