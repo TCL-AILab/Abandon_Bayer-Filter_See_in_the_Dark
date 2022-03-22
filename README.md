@@ -20,7 +20,7 @@ This is the Pytorch implementation of our work. The next requirments and some ot
 
 
 ## Dataset
-![teaser](images/datset_example.png)
+![dataset](images/dataset.png)
 
 
 We propose the **MCR** 
