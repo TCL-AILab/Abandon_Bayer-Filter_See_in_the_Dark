@@ -1,4 +1,4 @@
-# Abondoning the Bayer-Filter to See in the Dark (CVPR 2022)
+# Abandoning the Bayer-Filter to See in the Dark (CVPR 2022)
 
 **Paper:** https://arxiv.org/abs/2203.04042
 
