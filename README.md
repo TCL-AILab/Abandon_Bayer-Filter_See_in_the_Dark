@@ -35,7 +35,7 @@ The zip file contain 3 parts:
   - Mono_GT (498 images)
   - Color_RAW_Input (498 × 8 images)
 
-Totally 498 different scens, each scene has 1 corresponding RGB and Monochrome ground truth and 8 different exposure color Raw inputs.
+Totally 498 different scenes, each scene has 1 corresponding RGB and Monochrome ground truth and 8 different exposure color Raw inputs.
 
 We assemble the color camera and the monochrome camera up and down, setting the same exposure times and gain in the same scene.
 
