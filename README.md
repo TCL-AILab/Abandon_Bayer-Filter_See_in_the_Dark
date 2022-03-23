@@ -1,7 +1,6 @@
 # Abandoning the Bayer-Filter to See in the Dark (CVPR 2022)
 
-to be confirmed
-**Paper:** https://arxiv.org/abs/2203.04042
+**Paper:** https://arxiv.org/abs/2203.04042 (Arxiv version)
 
 This code includes the training and testing procedures of our network on our Mono-colored raw Paired (MCR) dataset and [SID](https://github.com/cchen156/Learning-to-See-in-the-Dark) dataset's Sony part.
 
@@ -11,13 +10,12 @@ Low-light image enhancement - a pervasive but challenging problem, plays a centr
 
 ## Requirments
 This is the Pytorch implementation of our work. The next requirments and some other frequently-used Library will be needed.
+
 1. Python >= 3.7
 2. Pytorch >= 1.7.1
 3. scikit-image 0.18.1
 4. imageio 2.9.0
 5. rawpy 0.17.0
-...
-
 
 
 ## Dataset
@@ -87,7 +85,7 @@ If you find this project useful in your research, please consider citing:
 
 ```
 @article{dong2022learning,
-  title={Learning to Erase the Bayer-Filter to See in the Dark},
+  title={Abandoning the Bayer-Filter to See in the Dark},
   author={Dong, Xingbo and Xu, Wanyan and Miao, Zhihui and Ma, Lan and Zhang, Chao and Yang, Jiewen and Jin, Zhe and Teoh, Andrew Beng Jin and Shen, Jiajun},
   journal={arXiv preprint arXiv:2203.04042},
   year={2022}
