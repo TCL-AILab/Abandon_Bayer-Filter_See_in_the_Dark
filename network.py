@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-# from torchsummary import summary
+from ptflops import get_model_complexity_info
 
 class CALayer(nn.Module):
     """
@@ -235,8 +235,10 @@ class our_Net(nn.Module):
             if isinstance(m, nn.ConvTranspose2d):
                 m.weight.data.normal_(0.0, 0.02)
 
-# device = torch.device("cuda")
+
+
+# # calculate GFLOPs and Parameters
 # model = our_Net()
-# model = model.to(device)
-# print(model)
-# summary(model, (1, 256, 256))
+# ops, params = get_model_complexity_info(model, (1, 512, 512), as_strings=True,
+#                                         print_per_layer_stat=True, verbose=True)
+# print(ops, params)

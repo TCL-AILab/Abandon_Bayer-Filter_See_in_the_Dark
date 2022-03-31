@@ -1,3 +1,4 @@
 ##ignore those files##
 .idea
 __pycache__/
+.log
