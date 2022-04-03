@@ -16,7 +16,7 @@ The proposed pipeline take advantages of the fusion of the virtual monochrome an
 
 Video demos:
 
-[![videos](https://img.youtube.com/vi/Ev_DFZMz07E/0.jpg)](https://www.youtube.com/watch?v=Ev_DFZMz07E)
+[![videos](https://img.youtube.com/vi/NVHAmH66OC4/0.jpg)](https://www.youtube.com/watch?v=NVHAmH66OC4)
 
 
 ## Requirments
