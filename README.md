@@ -14,6 +14,11 @@ The proposed pipeline take advantages of the fusion of the virtual monochrome an
 
 ![pipeline](md_material/pipeline.png)
 
+Video demos:
+
+[![videos](https://img.youtube.com/vi/Ev_DFZMz07E/0.jpg)](https://www.youtube.com/watch?v=Ev_DFZMz07E)
+
+
 ## Requirments
 This is the Pytorch implementation of our work. The next requirments and some other frequently-used Library will be needed.
 
