@@ -14,7 +14,7 @@ The proposed pipeline take advantages of the fusion of the virtual monochrome an
 
 ![pipeline](md_material/pipeline.png)
 
-Video demos:
+**Video demos:**
 
 [![videos](https://img.youtube.com/vi/NVHAmH66OC4/0.jpg)](https://www.youtube.com/watch?v=NVHAmH66OC4)
 
@@ -93,18 +93,14 @@ The pre-trained models on both datasets can be found at [MCR_pretrained_model](h
 
 ## Citation
 If you find this project useful in your research, please consider citing:
-
 ```
-@article{dong2022learning,
-  title={Abandoning the Bayer-Filter to See in the Dark},
-  author={Dong, Xingbo and Xu, Wanyan and Miao, Zhihui and Ma, Lan and Zhang, Chao and Yang, Jiewen and Jin, Zhe and Teoh, Andrew Beng Jin and Shen, Jiajun},
-  journal={arXiv preprint arXiv:2203.04042},
-  year={2022}
+@inproceedings{Dong2022Abandoning,
+	title={Abandoning the Bayer-Filter to See in the Dark},
+	author={Dong, Xingbo and Xu, Wanyan and Miao, Zhihui and Ma, Lan and Zhang, Chao and Yang, Jiewen and Jin, Zhe and Teoh, Andrew Beng Jin and Shen, Jiajun},
+	booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+	year={2022}
 }
 ```
 
-
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-
-
