@@ -1,6 +1,6 @@
 # Abandoning the Bayer-Filter to See in the Dark (CVPR 2022)
 
-**Paper:** https://arxiv.org/abs/2203.04042 (Arxiv version)
+**Paper:** https://arxiv.org/abs/2203.04042
 
 This code includes the training and testing procedures of our network on our Mono-colored raw Paired (MCR) dataset and [SID](https://github.com/cchen156/Learning-to-See-in-the-Dark) dataset's Sony part.
 
@@ -18,6 +18,11 @@ The proposed pipeline take advantages of the fusion of the virtual monochrome an
 
 [![videos](https://img.youtube.com/vi/NVHAmH66OC4/0.jpg)](https://www.youtube.com/watch?v=NVHAmH66OC4)
 
+**Presentation video:**
+
+[Youtube](https://youtu.be/z2NGdhju5nA)
+
+[BiliBili](https://www.bilibili.com/video/BV1yY411F7he?share_source=copy_web)
 
 ## Requirments
 This is the Pytorch implementation of our work. The next requirments and some other frequently-used Library will be needed.
