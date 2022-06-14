@@ -99,11 +99,12 @@ The pre-trained models on both datasets can be found at [MCR_pretrained_model](h
 ## Citation
 If you find this project useful in your research, please consider citing:
 ```
-@inproceedings{Dong2022Abandoning,
-	title={Abandoning the Bayer-Filter to See in the Dark},
-	author={Dong, Xingbo and Xu, Wanyan and Miao, Zhihui and Ma, Lan and Zhang, Chao and Yang, Jiewen and Jin, Zhe and Teoh, Andrew Beng Jin and Shen, Jiajun},
-	booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-	year={2022}
+@inproceedings{dong2022abandoning,
+  title={Abandoning the Bayer-Filter To See in the Dark},
+  author={Dong, Xingbo and Xu, Wanyan and Miao, Zhihui and Ma, Lan and Zhang, Chao and Yang, Jiewen and Jin, Zhe and Teoh, Andrew Beng Jin and Shen, Jiajun},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={17431--17440},
+  year={2022}
 }
 ```
 
