@@ -1,6 +1,6 @@
 # Abandoning the Bayer-Filter to See in the Dark (CVPR 2022)
 
-**Paper:** https://arxiv.org/abs/2203.04042 (Arxiv version)
+**Paper:** https://arxiv.org/abs/2203.04042
 
 This code includes the training and testing procedures of our network on our Mono-colored raw Paired (MCR) dataset and [SID](https://github.com/cchen156/Learning-to-See-in-the-Dark) dataset's Sony part.
 
@@ -13,6 +13,16 @@ To train the convolutional networks, we propose a dataset with monochrome and co
 The proposed pipeline take advantages of the fusion of the virtual monochrome and the color raw images and our extensive experiments indicate that significant improvement can be achieved by leveraging raw sensor data and data-driven learning.
 
 ![pipeline](md_material/pipeline.png)
+
+**Video demos:**
+
+[![videos](https://img.youtube.com/vi/NVHAmH66OC4/0.jpg)](https://www.youtube.com/watch?v=NVHAmH66OC4)
+
+**Presentation video:**
+
+[Youtube](https://youtu.be/z2NGdhju5nA)
+
+[BiliBili](https://www.bilibili.com/video/BV1yY411F7he?share_source=copy_web)
 
 ## Requirments
 This is the Pytorch implementation of our work. The next requirments and some other frequently-used Library will be needed.
@@ -90,18 +100,15 @@ The pre-trained models on both datasets can be found at [MCR_pretrained_model](h
 
 ## Citation
 If you find this project useful in your research, please consider citing:
-
 ```
-@article{dong2022learning,
-  title={Abandoning the Bayer-Filter to See in the Dark},
+@inproceedings{dong2022abandoning,
+  title={Abandoning the Bayer-Filter To See in the Dark},
   author={Dong, Xingbo and Xu, Wanyan and Miao, Zhihui and Ma, Lan and Zhang, Chao and Yang, Jiewen and Jin, Zhe and Teoh, Andrew Beng Jin and Shen, Jiajun},
-  journal={arXiv preprint arXiv:2203.04042},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={17431--17440},
   year={2022}
 }
 ```
 
-
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-
-
