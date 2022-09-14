@@ -41,6 +41,8 @@ The zip file contain 3 parts:
 
 Totally 498 different scenes, each scene has 1 corresponding RGB and Monochrome ground truth and 8 different exposure color Raw inputs.
 
+(The 8 exposures Monochrome images are available at [Google Drive](https://drive.google.com/file/d/1mQml2a8U7HecRvCldxiwvjK4ZexUB7LU/view?usp=sharing), [Badui Netdisk](https://pan.baidu.com/s/1xvVKivKyjdgKomPI0F5pdQ) (Extraction code: 22cv) )
+
 We assemble the color camera and the monochrome camera up and down, setting the same exposure times and gain in the same scene.
 
 And we choose the monochrome GT and RGB GT under the longest exposure time.
