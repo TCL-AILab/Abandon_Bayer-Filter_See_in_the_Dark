@@ -184,7 +184,7 @@ if __name__ == '__main__':
     model = model.to(device)
     print('Device on cuda: {}'.format(next(model.parameters()).is_cuda))
 
-    checkpoint = torch.load(save_weights_file + '/weights_234000.pth')
+    checkpoint = torch.load(save_weights_file + '/weights_234000.pth', weights_only=True)
     model.load_state_dict(checkpoint['model'], strict=False)
     iter_num = 234000
 
